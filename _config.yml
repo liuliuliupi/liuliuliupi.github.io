@@ -1,21 +1,21 @@
 #
-# This file contains configuration flags to customize your site
+# 该文件包含自定义网站所需的配置参数
 #
 
-# Name of your site (displayed in the header)
-name: Your Name
+# 网站名称（展示在页面头部）
+name: LiuLiuLiuPi
 
-# Short bio or description (displayed in the header)
-description: Web Developer from Somewhere
+# 简短简介/描述（展示在页面头部）
+description: 个人博客
 
-# URL of your avatar or profile pic (you could use your GitHub profile pic)
+# 头像/个人图片地址（可使用你的 GitHub 头像链接）
 avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/jekyll-logo.png
 
 #
-# Flags below are optional
+# 下方参数均为可选配置
 #
 
-# Includes an icon in the footer for each username you enter
+# 在页脚展示你填写账号对应的社交图标，留空则不显示
 footer-links:
   dribbble:
   email:
@@ -25,32 +25,32 @@ footer-links:
   instagram:
   linkedin:
   pinterest:
-  rss: # just type anything here for a working RSS icon
-  twitter: jekyllrb
-  stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
-  youtube: # channel/<your_long_string> or user/<user-name>
-  googleplus: # anything in your profile username that comes after plus.google.com/
+  rss: # 随便填写任意内容即可启用 RSS 订阅图标
+  twitter: 
+  stackoverflow: # StackOverflow 个人主页地址，示例："users/50476/bart-kiers"
+  youtube: # 格式 channel/<频道ID> 或 user/<用户名>
+  googleplus: # 填写谷歌个人主页地址中 plus.google.com/ 后面的内容
 
 
-# Enter your Disqus shortname (not your username) to enable commenting on posts
-# You can find your shortname on the Settings page of your Disqus account
+# 填入你的 Disqus 站点短名称（不是账号用户名），开启文章评论功能
+# 可在 Disqus 账号的设置页面找到短名称
 disqus:
 
-# Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
+# 填入谷歌统计跟踪代码（格式示例：UA-2110908-2），开启访问统计
 google_analytics:
 
-# Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
-# Used for Sitemap.xml and your RSS feed
+# 你的网站完整访问地址（示例：http://barryclark.github.io 或 http://www.barryclark.co）
+# 用于生成站点地图 Sitemap.xml 和 RSS 订阅源
 url:
 
-# If you're hosting your site at a Project repository on GitHub pages
-# (http://yourusername.github.io/repository-name)
-# and NOT your User repository (http://yourusername.github.io)
-# then add in the baseurl here, like this: "/repository-name"
+# 如果你使用 GitHub Pages 的项目仓库部署网站
+# 访问地址格式为 http://你的用户名.github.io/仓库名
+# 而非个人主页仓库 http://你的用户名.github.io
+# 则需要在此填写仓库名作为根路径，示例："/repository-name"
 baseurl: ""
 
 #
-# !! You don't need to change any of the configuration flags below !!
+# !! 下方配置参数无需修改 !!
 #
 
 permalink: /:title/
